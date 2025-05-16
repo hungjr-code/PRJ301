@@ -1,0 +1,43 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : May 16, 2025, 8:34:56 AM
+    Author     : Admin
+*/
+/* Toàn bộ trang có hình nền */
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/hexagons.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+/* Div chứa chữ Welcome ở giữa */
+.centered-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.centered-text h1 {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 3em;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+}
+
+.centered-text a {
+    color: white;
+    margin-top: 20px;
+    display: inline-block;
+    font-size: 1.2em;
+}
